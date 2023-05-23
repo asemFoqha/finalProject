@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <link rel="stylesheet" href="dict.css" />
+    <title>Asem's project</title>
+  </head>
+  <body>
+    <div class="header general">
+      <h2>WAP Online Dictionary</h2>
+    </div>
+
+    <div class="form-section general">
+      <form>
+        <label for="word">Term: </label>
+        <input type="text" name="word" id="word" />
+        <input type="submit" value="Lookup" />
+      </form>
+    </div>
+
+    <div class="meaning">
+      <img src="./images/loader.gif" alt="loader" class="loader" />
+      <ol id="meaning-list"></ol>
+      <div class="count"></div>
+    </div>
+
+    <!-- script -->
+    <script src="dict.js"></script>
+  </body>
+</html>
